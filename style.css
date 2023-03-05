@@ -1,17 +1,39 @@
 body {
-background-color: black;
+    background-color: #00000a;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Light.ttf');
+}
+
+.banner {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0,0,10,1) 5%, rgba(0,0,10,0.7) 100%),  url('images/board.jpg');
+    background-size: cover;
+
+    position: relative;
 }
 
 .aprContainer {
-    border-color: aqua;
-    border-style: solid;
-    width: 500px;
+    background-color: #051a4d;
+    font-family: Nunito;
 
     display: block;
     margin-left: auto;
     margin-right: auto;
+    content: "";
+    display: table;
+    clear: both;
 
-    font-family: Nunito;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .aprBoxTexto {
@@ -19,21 +41,48 @@ background-color: black;
     border-style: solid;
     text-align: left;
     padding: 10px;
+    float: left;
+
+    height: 250px;
+    width: 250px;
+
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
 
 .aprNome {
-    color: white;
-    font-size: 40px;
+    color: #BFDBF7;
+    font-size: 35px;
+    font-style: bold;
 }
-
 .aprTexto {
     color:grey;
     font-size: 18px;
 }
-
 .aprRedes {
     padding-top: 10px;
 }
+
+.aprBoxImagem {
+    background-image: url('images/avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: 250px;
+
+    float: left;
+    width: 250px;
+    height: 250px;
+    border-color: green;
+    border-style: solid;
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .fa {
     color: aqua;
@@ -49,19 +98,28 @@ background-color: black;
     background-color: brown;
 }
 
-.aprBoxImagem {
-    border-color: green;
-    border-style: solid;
-}
 
-.aprImagem {
-    width: 100px;
-}
-
-@media screen and (max-width:1170px) {
-
+@media screen and (min-width:700px) {
+    
     .aprContainer {
-        width: 70%;
+        width: 500px;
+    }
+
+    .aprRedes {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width:699px) {
+
+    .aprBoxImagem {
+        float:none;
+    }
+
+    .aprBoxTexto {
+        float: none;
+        height: none;
     }
     
 }
