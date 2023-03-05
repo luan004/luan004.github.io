@@ -1,0 +1,67 @@
+body {
+background-color: black;
+}
+
+.aprContainer {
+    border-color: aqua;
+    border-style: solid;
+    width: 500px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Nunito;
+}
+
+.aprBoxTexto {
+    border-color: red;
+    border-style: solid;
+    text-align: left;
+    padding: 10px;
+}
+
+.aprNome {
+    color: white;
+    font-size: 40px;
+}
+
+.aprTexto {
+    color:grey;
+    font-size: 18px;
+}
+
+.aprRedes {
+    padding-top: 10px;
+}
+
+.fa {
+    color: aqua;
+    border-style: solid;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    background-color: brown;
+}
+
+.aprBoxImagem {
+    border-color: green;
+    border-style: solid;
+}
+
+.aprImagem {
+    width: 100px;
+}
+
+@media screen and (max-width:1170px) {
+
+    .aprContainer {
+        width: 70%;
+    }
+    
+}
