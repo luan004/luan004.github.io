@@ -1,6 +1,10 @@
 body {
-    background-color: #00000a;
+    background-color: #0d0d12;
     margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -11,15 +15,17 @@ body {
 .banner {
     height: 100vh;
     background-repeat: no-repeat;
-    background: linear-gradient(0deg, rgba(0,0,10,1) 5%, rgba(0,0,10,0.7) 100%),  url('images/board.jpg');
+    background: linear-gradient(0deg, rgba(13, 13, 18,1) 50%, rgba(13,13,18,0.7) 100%),  url('images/background.jpg');
     background-size: cover;
 
     position: relative;
 }
 
 .aprContainer {
-    background-color: #051a4d;
+    background-color: #17171C;
     font-family: Nunito;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -5px rgb(0 0 0 / 100%);
 
     display: block;
     margin-left: auto;
@@ -37,21 +43,12 @@ body {
 }
 
 .aprBoxTexto {
-    border-color: red;
-    border-style: solid;
     text-align: left;
-    padding: 10px;
+    padding: 20px;
     float: left;
-
-    height: 250px;
     width: 250px;
 
 }
-
-* {
-    box-sizing: border-box;
-  }
-  
 
 .aprNome {
     color: #BFDBF7;
@@ -59,7 +56,7 @@ body {
     font-style: bold;
 }
 .aprTexto {
-    color:grey;
+    color:#8091a3;
     font-size: 18px;
 }
 .aprRedes {
@@ -70,12 +67,12 @@ body {
     background-image: url('images/avatar.jpg');
     background-repeat: no-repeat;
     background-size: 250px;
+    border-radius: 30px;
+    box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
 
     float: left;
     width: 250px;
     height: 250px;
-    border-color: green;
-    border-style: solid;
 
     content: "";
     display: table;
@@ -85,9 +82,9 @@ body {
 
 
 .fa {
-    color: aqua;
-    border-style: solid;
-    padding: 7px;
+    transition: 0.3s;
+    color: #BFDBF7;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -95,7 +92,7 @@ body {
 }
 
 .fa:hover {
-    background-color: brown;
+    background-color: #0d0d12;
 }
 
 
@@ -109,6 +106,10 @@ body {
         padding-top: 50px;
     }
 
+    .aprBoxTexto {
+        height: 250px;
+    }
+
 }
 
 @media screen and (max-width:699px) {
@@ -119,7 +120,18 @@ body {
 
     .aprBoxTexto {
         float: none;
-        height: none;
+    }
+
+    .aprNome {
+        text-align: center;
+    }
+
+    .aprTexto {
+        text-align: center;
+    }
+
+    .aprRedes {
+        text-align:center;
     }
     
 }
