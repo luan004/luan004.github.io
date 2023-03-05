@@ -26,6 +26,7 @@ body {
     font-family: Nunito;
     border-radius: 30px;
     box-shadow: 0px 0px 30px -5px rgb(0 0 0 / 100%);
+    transition: 0.2s;
 
     display: block;
     margin-left: auto;
@@ -45,9 +46,8 @@ body {
 .aprBoxTexto {
     text-align: left;
     padding: 20px;
-    float: left;
+    float: right;
     width: 250px;
-
 }
 
 .aprNome {
@@ -61,6 +61,7 @@ body {
 }
 .aprRedes {
     padding-top: 10px;
+    text-align:center;
 }
 
 .aprBoxImagem {
@@ -69,6 +70,7 @@ body {
     background-size: 250px;
     border-radius: 30px;
     box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
+    transition: 0.3s;
 
     float: left;
     width: 250px;
@@ -84,6 +86,7 @@ body {
 .fa {
     transition: 0.3s;
     color: #BFDBF7;
+    font-size: 20px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -100,19 +103,28 @@ body {
     
     .aprContainer {
         width: 500px;
+        height: 250px;
     }
 
-    .aprRedes {
-        padding-top: 50px;
-    }
 
     .aprBoxTexto {
+        text-align: center;
         height: 250px;
+        padding: 60px 20px
+    }
+
+    .aprBoxImagem:hover {
+        background-size: 270px;
+        background-position: center;
     }
 
 }
 
 @media screen and (max-width:699px) {
+
+    .aprContainer {
+        width: 250px;
+    }
 
     .aprBoxImagem {
         float:none;
@@ -128,10 +140,6 @@ body {
 
     .aprTexto {
         text-align: center;
-    }
-
-    .aprRedes {
-        text-align:center;
     }
     
 }
