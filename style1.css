@@ -12,6 +12,11 @@ body {
     src: url('fonts/Nunito-Light.ttf');
 }
 
+@font-face {
+    font-family: Nunito-Bold;
+    src: url('fonts/Nunito-Bold.ttf');
+}
+
 .banner {
     height: 100vh;
     background-repeat: no-repeat;
@@ -23,7 +28,6 @@ body {
 
 .aprContainer {
     background-color: #17171C;
-    font-family: Nunito;
     border-radius: 30px;
     box-shadow: 0px 0px 30px -5px rgb(0 0 0 / 100%);
     transition: 0.2s;
@@ -51,11 +55,13 @@ body {
 }
 
 .aprNome {
+    font-family: Nunito-Bold;
     color: #BFDBF7;
     font-size: 50px;
     font-style: bold;
 }
 .aprTexto {
+    font-family: Nunito;
     color:#8091a3;
     font-size: 25px;
 }
@@ -113,7 +119,7 @@ body {
     }
 
     .aprBoxImagem:hover {
-        background-size: 270px;
+        background-size: 400px;
         background-position: center;
     }
 
