@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Light.ttf');
+}
+
+.conhBox {
+    height: 250px;
+    width: 750px;
+
+    border-style: solid;
+    border-color: green;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box {
+    background-color: #17171C;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -5px rgb(0 0 0 / 100%);
+    transition: 0.2s;
+    width: 360px;
+    padding: 10px;
+}
+
+.formBox {
+    float: left;
+}
+
+.cursBox {
+    float: right;
+}
+
+
+.titulo {
+    font-family: Nunito;
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+}
+
+@media screen and (max-width:849px) {
+
+    .conhBox {
+        width: 375px;
+        margin-top: 100px;
+    }
+
+    .box {
+        width: 372px;
+    }
+    
+}
