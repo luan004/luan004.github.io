@@ -75,6 +75,7 @@
     width: 100px;
     height: 100px;
     background-position: center;
+    box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
 }
 
 .ifpr {
@@ -99,12 +100,24 @@
 @media screen and (max-width:849px) {
 
     .conhBox {
-        width: 375px;
+        width: 300px;
     }
 
     .box {
-        width: 372px;
+        width: 300px;
         margin-bottom: 50px;
+    }
+
+    .text {
+        width: 200px;
+    }
+
+    .cardTitulo {
+        font-size: 14px;
+    }
+
+    .cardTexto {
+        font-size: 13px;
     }
     
 }

@@ -73,12 +73,13 @@ body {
 .aprBoxImagem {
     background-image: url('images/avatar.jpg');
     background-repeat: no-repeat;
-    background-size: 375px;
     border-radius: 30px;
     box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
     transition: 0.3s;
 
     float: left;
+
+    background-size: 375px;
     width: 375px;
     height: 375px;
 
@@ -133,14 +134,20 @@ body {
 
     .aprBoxImagem {
         float:none;
+        background-size: 300px;
+        width: 300px;
+        height: 300px;
+        
     }
 
     .aprBoxTexto {
         float: none;
+        width: 300px;
     }
 
     .aprNome {
         text-align: center;
+        font-size: 40px;
     }
 
     .aprTexto {
