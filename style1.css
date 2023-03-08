@@ -59,6 +59,7 @@ body {
     color: #BFDBF7;
     font-size: 50px;
     font-style: bold;
+    transition: 0.5s;
 }
 .aprTexto {
     font-family: Nunito;
@@ -102,6 +103,7 @@ body {
 }
 
 .fa:hover {
+    color:aqua;
     background-color: #0d0d12;
 }
 
@@ -122,6 +124,10 @@ body {
     .aprBoxImagem:hover {
         background-size: 400px;
         background-position: center;
+    }
+
+    .aprNome:hover {
+        color: aqua;
     }
 
 }

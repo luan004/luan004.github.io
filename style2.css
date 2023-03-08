@@ -54,7 +54,7 @@
     font-family: Nunito;
     font-size: 25px;
     text-align: center;
-    color: aqua;
+    color:  aqua;
     padding: 10px;
     padding-bottom: 20px;
 }
@@ -76,6 +76,11 @@
     height: 100px;
     background-position: center;
     box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
+    transition: 0.3s;
+}
+
+.pic:hover {
+    background-size: 110px;
 }
 
 .ifpr {
