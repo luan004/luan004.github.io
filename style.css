@@ -1,6 +1,12 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url(fonts/Nunito-Bold.ttf);
+}
+
 body {
     margin: 0;
     background-color: blue;
+    min-width: 700px;
 }
 
 .card {
@@ -9,10 +15,24 @@ body {
     background-color: red;
     border-radius: 30px;
     margin: auto;
+    display: flex;
 }
 
 .avatar {
+    border-radius: 30px;
     width: 300px;
     height: 300px;
     background-image: url(images/avatar.jpg);
+    background-size: contain;
+}
+
+.infos {
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.infos h1 {
+    margin-top: 0;
+    font-family: NunitoBold;
 }
