@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Nunito;
+    src: url('fonts/Nunito-Light.ttf');
+}
+
+
+@font-face {
+    font-family: Nunito-Bold;
+    src: url('fonts/Nunito-Bold.ttf');
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+.conhBox {
+    height: 250px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+.box {
+    background-color: #17171C;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px -5px rgb(0 0 0 / 100%);
+    transition: 0.2s;
+    width: 360px;
+    float: left;
+}
+
+.text {
+    float: left;
+    text-align: center;
+    width: 260px;
+    padding: 20px 10px;
+    height: 100px;
+}
+
+.formBox {
+    float: left;
+}
+
+.cursBox {
+    float: right;
+}
+
+
+.titulo {
+    font-family: Nunito;
+    font-size: 25px;
+    text-align: center;
+    color:  aqua;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: #212129;
+    border-radius: 30px;
+    height: 100px;
+    color:#8091a3;
+    box-shadow: 0px -10px 30px -5px rgb(0 0 0 / 50%);
+}
+
+.pic {
+    float:left;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    box-shadow: 15px 0px 15px -5px rgb(0 0 0 / 43%);
+    transition: 0.3s;
+}
+
+.pic:hover {
+    background-size: 115px;
+}
+
+.ifpr {
+    background-image: url('images/ifpr.png');
+}
+
+.cisco {
+    background-image: url(images/cisco.png);
+}
+
+.cardTitulo {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-family: Nunito-Bold;
+}
+
+.cardTexto {
+    font-size: 14px;
+    font-family: Nunito;
+}
+
+@media screen and (max-width:849px) {
+
+    .conhBox {
+        width: 300px;
+    }
+
+    .box {
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .text {
+        width: 200px;
+    }
+
+    .cardTitulo {
+        font-size: 14px;
+    }
+
+    .cardTexto {
+        font-size: 13px;
+    }
+    
+}
