@@ -1,0 +1,49 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url(fonts/Nunito-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: blue;
+    min-width: 700px;
+}
+
+.card {
+    height: 300px;
+    width: 700px;
+    background-color: red;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+}
+
+.avatar {
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    background-image: url(images/avatar.jpg);
+    background-size: contain;
+}
+
+.infos {
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.infos h1, h2 {
+    font-size: 2em;
+    font-family: NunitoBold;
+}
+
+.infos h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.infos h2 {
+    margin: 0;
+    font-size: 20px;
+    color:grey;
+}

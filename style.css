@@ -3,36 +3,70 @@
     src: url(fonts/Nunito-Bold.ttf);
 }
 
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-Light.ttf);
+}
+
 body {
     margin: 0;
-    background-color: blue;
-    min-width: 700px;
 }
 
-.card {
-    height: 300px;
-    width: 600px;
-    background-color: red;
-    border-radius: 30px;
-    margin: auto;
-    display: flex;
-}
-
-.avatar {
-    border-radius: 30px;
-    width: 300px;
-    height: 300px;
-    background-image: url(images/avatar.jpg);
-    background-size: contain;
+.sec1 {
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0,13,32,1) 19%, rgba(0,13,32,0.9359341148568803) 48%, rgba(0,13,32,0.582992938386292) 100%), url('images/back.png');
+    background-size: cover;
+    background-position: right;
 }
 
 .infos {
-    width: 300px;
-    padding: 30px;
-    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    margin: 80px;
+}
+
+.infos h1, h2 {
+    font-family: NunitoBold;
+    margin: 0;
 }
 
 .infos h1 {
-    margin-top: 0;
-    font-family: NunitoBold;
+    font-size: 80px;
+    color: white;
+}
+
+.infos h2 {
+    font-size: 30px;
+    color:grey;
+}
+
+.infos p {
+    width: 500px;
+    color: white;
+    font-family: Nunito;
+    text-align: justify;
+}
+
+.button {
+    font-family: Nunito;
+    color: white;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.button:hover {
+    color:#000d20;
+    background-color: white;
+}
+
+.sec2 {
+    height: 300px;
+    background-color: red;
 }
