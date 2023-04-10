@@ -8,13 +8,20 @@
     src: url(fonts/Nunito-Light.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
 
-.sec1 {
+section {
     height: 100vh;
-    background-image: linear-gradient(90deg, rgba(0,13,32,1) 19%, rgba(0,13,32,0.9359341148568803) 48%, rgba(0,13,32,0.582992938386292) 100%), url('images/back.png');
+}
+
+.sec1 {
+    background-image: linear-gradient(90deg, rgba(0,13,32,1) 19%, rgba(0,13,32,0.9359341148568803) 48%, rgba(0,13,32,0.582992938386292) 100%), url('images/image.jpg');
     background-size: cover;
     background-position: right;
 }
@@ -41,6 +48,7 @@ body {
 }
 
 .infos p {
+    margin: 40px 0;
     width: 500px;
     color: white;
     font-family: Nunito;
@@ -59,14 +67,10 @@ body {
     border-radius: 30px;
     display: inline-block;
     transition: 0.2s;
+    margin-right: 10px;
 }
 
 .button:hover {
     color:#000d20;
     background-color: white;
-}
-
-.sec2 {
-    height: 300px;
-    background-color: red;
 }
