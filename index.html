@@ -8,7 +8,13 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <section class="sec1">
+    <a href="#infos" class="toTop" id="toTop">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
+            <path d="M479.825 877.961q-9.632 0-15.517-6.01-5.884-6.009-5.884-15.567v-499.5L224.115 591.192q-6.525 7.077-15.416 7.077t-15.468-6.834q-6.576-6.833-6.576-15.702t6.609-15.65l267.06-267.06q4.059-4.312 9.466-6.436 5.406-2.124 10.823-2.124 5.418 0 10.249 2.192 4.83 2.192 8.753 6.308l267.12 267.119q6.61 6.782 6.61 15.651t-6.419 15.702q-6.418 6.834-15.384 6.834-8.965 0-14.965-7.077L502.269 356.884v499.5q0 9.558-6.406 15.567-6.406 6.01-16.038 6.01Z"/>
+        </svg>
+    </a>
+
+    <section class="sec1" id="infos">
         <div class="infos">
             <h1>Luan Gabriel</h1>
             <h2>Técnico em Informática</h2>
@@ -18,17 +24,36 @@
         </div>
     </section>
 
-    <section class="sec2" id="formacao">
-        FADS
+    <section id="formacao">
+        <h1>Formação</h1>
     </section>
 
-    <section class="sec2" id="contato" style="background-color: grey;">
-        FADS
+    <section id="contato" style="background-color: grey;">
+        <h1>Contato</h1>
     </section>
 
     <footer>
-        Luan Gabriel, 2020
+        © 2023
+        <span>Luan Gabriel</span>
+        . Todos os direitos reservados.
     </footer>
 
 </body>
+
+<script>
+    window.onscroll = function() {showButton()};
+    
+    function showButton() {
+      if (document.documentElement.scrollTop > 300) {
+        document.getElementById("toTop").style.display = "block";
+      } else {
+        document.getElementById("toTop").style.display = "none";
+      }
+    }
+    
+    function toTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
 </html>

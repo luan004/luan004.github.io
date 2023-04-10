@@ -16,8 +16,30 @@ body {
     margin: 0;
 }
 
+.toTop {
+    position: fixed;
+    margin: 30px;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50%;
+    transition: 0.3s;
+    border-color: #707070;
+    fill: #707070;
+}
+
+.toTop:hover {
+    border-color: black;
+    fill: black;
+}
+
 section {
     height: 100vh;
+    padding: 80px;
+    box-sizing: border-box;
 }
 
 .sec1 {
@@ -29,22 +51,20 @@ section {
 .infos {
     position: absolute;
     bottom: 0;
-    margin: 80px;
+    margin: 80px 0;
 }
 
-.infos h1, h2 {
+h1, h2 {
     font-family: NunitoBold;
     margin: 0;
 }
 
 .infos h1 {
-    font-size: 80px;
     color: white;
 }
 
 .infos h2 {
-    font-size: 30px;
-    color:grey;
+    color: #8292aa;
 }
 
 .infos p {
@@ -55,22 +75,43 @@ section {
     text-align: justify;
 }
 
+h1 {
+    font-size: 70px;
+    color: black;
+}
+
 .button {
     font-family: Nunito;
+    text-align: center;
     color: white;
     text-decoration: none;
+
     border-style: solid;
     border-width: 2px;
+    border-radius: 30px;
+
     padding: 10px;
     width: 100px;
-    text-align: center;
-    border-radius: 30px;
+    margin-right: 10px;
     display: inline-block;
     transition: 0.2s;
-    margin-right: 10px;
 }
 
 .button:hover {
     color:#000d20;
     background-color: white;
+}
+
+footer {
+    padding: 10px;
+    background-color: #000814;
+    color: white;
+    font-family: Nunito;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer span {
+    font-family: NunitoBold;
+    color:#d0e3ff;
 }
