@@ -29,6 +29,7 @@ body {
     transition: 0.3s;
     border-color: #707070;
     fill: #707070;
+    cursor: pointer;
 }
 
 .toTop:hover {
