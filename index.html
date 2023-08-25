@@ -2,56 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luan Gabriel</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Desafio das palavras</title>
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
 </head>
 <body>
-    <div class="toTop" id="toTop" onclick="toTop()">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960">
-            <path d="M479.825 877.961q-9.632 0-15.517-6.01-5.884-6.009-5.884-15.567v-499.5L224.115 591.192q-6.525 7.077-15.416 7.077t-15.468-6.834q-6.576-6.833-6.576-15.702t6.609-15.65l267.06-267.06q4.059-4.312 9.466-6.436 5.406-2.124 10.823-2.124 5.418 0 10.249 2.192 4.83 2.192 8.753 6.308l267.12 267.119q6.61 6.782 6.61 15.651t-6.419 15.702q-6.418 6.834-15.384 6.834-8.965 0-14.965-7.077L502.269 356.884v499.5q0 9.558-6.406 15.567-6.406 6.01-16.038 6.01Z"/>
-        </svg>
+    <div class="h1">
+        <h1>Desafio das palavras</h1>
+    </div>
+    <div class="box-central">
+        <div id="card" class="card">
+            <div>
+                <h3 id="word"></h1>
+            </div>
+        </div>
+        <div class="input">
+            <form>
+                <input type="text">
+            </form>
+        </div>
+        <button id="dica">
+            <i class="fa fa-question"></i>
+            Dica
+        </button>
+        <label>
+            <span id="numdica">0</span>/3
+        </label>
     </div>
 
-    <section class="sec1" id="infos">
-        <div class="infos">
-            <h1>Luan Gabriel</h1>
-            <h2>Técnico em Informática</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu nisl nunc mi ipsum. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar. Aliquet nibh praesent tristique magna sit amet purus gravida quis. Auctor neque vitae tempus quam. In pellentesque massa placerat duis. Et sollicitudin.</p>
-            <a href="#formacao" class="button">Ver Mais</a>
-            <a href="#contato" class="button">Contato</a>
-        </div>
-    </section>
-
-    <section id="formacao">
-        <h1>Formação</h1>
-    </section>
-
-    <section id="contato" style="background-color: grey;">
-        <h1>Contato</h1>
-    </section>
-
-    <footer>
-        © 2023 <span>Luan Gabriel</span>. Todos os direitos reservados.
-    </footer>
-
 </body>
-
-<script>
-    window.onscroll = function() {showButton()};
-    
-    function showButton() {
-      if (document.documentElement.scrollTop > 300) {
-        document.getElementById("toTop").style.display = "block";
-      } else {
-        document.getElementById("toTop").style.display = "none";
-      }
-    }
-    
-    function toTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-</script>
+<script type="module" src="./src/js/game.js"></script>
 </html>
