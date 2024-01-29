@@ -1,0 +1,74 @@
+{
+    "nav":{
+        "about":"SOBRE MIM",
+        "portfolio":"PORTFÓLIO",
+        "language":"IDIOMA"
+    },
+    "face":{
+        "subtitle":"Estudante de Engenharia de Software"
+    },
+    "aboutme":{
+        "title":"Sobre Mim",
+        "text":"<p>Sou estudante de Engenharia de Software no Instituto Federal do Paraná (IFPR) e tenho um diploma técnico em TI na mesma instituição. Atualmente, trabalho como desenvolvedor web freelancer e estou em busca de uma oportunidade como desenvolvedor júnior. Sou autodidata e estou sempre em busca de novos conhecimentos e desafios.</p><p>Estudo programação desde 2020 e tenho experiência com Java, JavaScript, PHP, MySQL, Git e Linux. Atualmente, estou me dedicando ao aprendizado de React e Node, aprimorando meu conhecimento em Desenvolvimento Web.</p>"
+    },
+    "education":{
+        "title":"Formação Acadêmica",
+        "bs":{
+            "title":"Bacharelado em Engenharia de Software",
+            "text":"<p>Instituto Federal do Paraná - IFPR</p><p>2024 - 2027 | Em Andamento</p>"
+        },
+        "it":{
+            "title":"Técnico em Informática",
+            "text":"<p>Instituto Federal do Paraná - IFPR</p><p>2020 - 2023 | <span class=\"fin\"><b>Concluído</b></span></p>"
+        }
+    },
+    "courses":{
+        "title":"Cursos e Certificações",
+        "cs50":{
+            "title":"CS50x - Introduction to Computer Science",
+            "text":"<p>HarvardX</p><p>2024 | Em Andamento</p>"
+        },
+        "network":{
+            "title":"Networking Essentials",
+            "text":"<p>Cisco Networking Academy</p><p>2023 | <span class=\"fin\"><b>Concluído</b></span></p>"
+        },
+        "linux":{
+            "title":"NDG Linux Unhatched",
+            "text":"<p>Cisco Networking Academy</p><p>2022 | <span class=\"fin\"><b>Concluído</b></span></p>"
+        }
+    },
+    "portfolio":{
+        "title":"Portfólio",
+        "redesocial":{
+            "title":"Rede Social - TCC",
+            "text":"Uma rede social desenvolvida com jQuery, Bootstrap, PHP e MySQL. O projeto permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.",
+            "button":"Ver Mais"
+        },
+        "store":{
+            "title":"Sistema de Gerenciamento de Lojas",
+            "text":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js.",
+            "button":"Ver Mais"
+        }
+    },
+    "footer":{
+        "button":"Código Fonte do Portfólio",
+        "text":"<p>Feito com <i class=\"fa-solid fa-heart\"></i> por Luan Gabriel &copy; 2024</p>"
+    },
+    "redesocial":{
+        "title":"Rede Social - TCC",
+        "createdAt":"Publicado em 26 de Janeiro de 2024",
+        "text":"<p>Este projeto foi desenvolvido para o meu trabalho de conclusão de curso no curso de Técnico em Informática. Trata-se de uma rede social que permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.</p><p>O front-end foi desenvolvido utilizando <span class=\"fin\">jQuery</span> e <span class=\"fin\">Bootstrap</span>, o back-end foi desenvolvido com <span class=\"fin\">PHP</span> e <span class=\"fin\">MySQL</span> para o banco de dados, e a comunicação entre o front-end e o back-end foi realizada através de uma API desenvolvida com PHP.</p><p>Com este projeto, pude aprender bastante sobre as tecnologias utilizadas e desenvolver um sistema completo, com front-end, back-end e banco de dados, além de compreender o funcionamento das redes sociais.</p><p>Professor: Dr. Fabiano Utiyama</p>",
+        "buttons": {
+            "document":"Documento",
+            "github":"Código Fonte"
+        }
+    },
+    "store": {
+        "title":"Sistema de Gerenciamento de Lojas",
+        "createdAt":"Publicado em 26 de Janeiro de 2024",
+        "text":"<p>Este é um sistema para gerenciamento de uma loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando o framework <span class=\"fin\">React</span> para o frontend, <span class=\"fin\">Express.js</span> para o backend, <span class=\"fin\">MySQL</span> para o banco de dados e <span class=\"fin\">Node.js</span> para o servidor.</p><p>Este projeto foi desenvolvido apenas para fins de estudo das tecnologias utilizadas. É simples e não possui todas as funcionalidades necessárias para um sistema real.</p>",
+        "buttons": {
+            "github":"Código Fonte"
+        }
+    }
+}

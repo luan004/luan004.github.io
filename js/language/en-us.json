@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "about": "ABOUT ME",
+        "portfolio": "PORTFOLIO",
+        "language": "LANGUAGE"
+    },
+    "face": {
+        "subtitle": "Software Engineering Student"
+    },
+    "aboutme": {
+        "title": "About Me",
+        "text": "<p>I'm a Software Engineering student at Federal Institute of Paraná (IFPR) and i have a technical degree in IT in the same institution. I'm currently working as a freelancer web developer and i'm looking for a job as a junior developer. I'm a self-taught person and i'm always looking for new knowledge and challenges.</p><p>I've been studying programming since 2020 and i have experience with Java, JavaScript, PHP, MySQL, Git and Linux. I'm currently studying ReactJS and NodeJS. And improving my knowledge in Web Development.</p>"
+    },
+    "education": {
+        "title": "Formal Education",
+        "bs": {
+            "title": "B.S. Software Engineering",
+            "text": "<p>Federal Institute of Paraná - IFPR</p><p>2024 - 2027 | In Progress</p>"
+        },
+        "it": {
+            "title": "IT Technician",
+            "text": "<p>Federal Institute of Paraná - IFPR</p><p>2020 - 2023 | <span class=\"fin\"><b>Completed</b></span></p>"
+        }
+    },
+    "courses": {
+        "title": "Courses and Certifications",
+        "cs50": {
+            "title": "CS50x - Introduction to Computer Science",
+            "text": "<p>HarvardX</p><p>2024 | In Progress</p>"
+        },
+        "network": {
+            "title": "Networking Essentials",
+            "text": "<p>Cisco Networking Academy</p><p>2023 | <span class=\"fin\"><b>Completed</b></span></p>"
+        },
+        "linux": {
+            "title": "NDG Linux Unhatched",
+            "text": "<p>Cisco Networking Academy</p><p>2022 | <span class=\"fin\"><b>Completed</b></span></p>"
+        }
+    },
+    "portfolio":{
+        "title":"Portfolio",
+        "redesocial":{
+            "title":"Social Network - Final Paper",
+            "text":"A social network project developed in PHP, MySQL, JavaScript, HTML and CSS. The project was developed for my final paper in IT Technician course.",
+            "button":"See More"
+        },
+        "store":{
+            "title":"Store Management System",
+            "text":"A store management system developed with React, Express.js and MySQL. The system can be used to manage inventory, sales, customers, run reports and more.",
+            "button":"See More"
+        }
+    },
+    "footer":{
+        "button":"Portfolio Source Code",
+        "text":"<p>Made with <i class=\"fa-solid fa-heart\"></i> by Luan Gabriel &copy; 2024</p>"
+    },
+    "redesocial":{
+        "title":"Social Network - Final Paper",
+        "createdAt":"Posted on January 26, 2024",
+        "text":"<p>This project was developed for my final paper in the IT Technician course, it is a social network with the possibility of creating posts, commenting, liking, following users, customizing the profile and more.</p><p>The front-end was developed using <span class=\"fin\">jQuery</span> and <span class=\"fin\">Bootstrap</span>, the back-end was developed with <span class=\"fin\">PHP</span> and <span class=\"fin\">MySQL</span> for the database, the communication between the front-end and the back-end was done using an API developed with PHP.</p><p>With this project I was able to learn a lot about the technologies used, and I was able to develop a complete system, with a front-end, back-end and database, and learn about how social networks work.</p><p>Professor: Ph.D. Fabiano Utiyama</p>",
+        "buttons": {
+            "document":"Document",
+            "github":"Source Code"
+        }
+    },
+    "store": {
+        "title":"Store Management System",
+        "createdAt":"Posted on January 26, 2024",
+        "text":"<p>This is a system for managing a store, with the possibility of managing products, sales and customers, and also running reports. It was developed using the <span class=\"fin\">React</span> framework for the frontend, <span class=\"fin\">Express.js</span> for the backend, <span class=\"fin\">MySQL</span> for the database and <span class=\"fin\">Node.js</span> for the server.</p><p>This project was developed only for study purposes of the technologies used, it is simple and does not have all the necessary features for a real system.</p>",
+        "buttons": {
+            "github":"Source Code"
+        }
+    }
+}

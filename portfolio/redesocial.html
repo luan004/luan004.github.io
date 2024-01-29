@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luan Gabriel | Store Management System</title>
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="transparent">
+            <span class="logo">
+                <a href="..">
+                    {dev <b>luan004</b>}
+                </a>
+            </span>
+            <ul>
+                <a href="..#aboutme" id="nav-aboutme"></a>
+                <a href="..#portfolio" id="nav-portfolio"></a>
+                <div class="dropdown">
+                    <button class="dropdown-button">
+                        <span id="nav-language"></span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <button onclick="setLang('pt-br')">
+                            <img src="../images/br.png" alt="Brazil Flag">
+                            PORTUGUÊS
+                        </button>
+                        <button onclick="setLang('en-us')">
+                            <img src="../images/us.png" alt="United States Flag">
+                            ENGLISH
+                        </button>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="article">
+            <h1 id="article-title"></h1>
+            <small id="article-createdAt"></small>
+            <span id="article-text"></span>
+            <div class="images">
+                <div class="image">
+                    <img class="" src="../images/portfolio/redesocial/thumb.gif" alt="Imagem">
+                </div>
+                <div class="image">
+                    <img class="" src="../images/portfolio/redesocial/4.png" alt="Imagem">
+                </div>
+                <div class="image">
+                    <img class="" src="../images/portfolio/redesocial/3.png" alt="Imagem">
+                </div>
+                <div class="image">
+                    <img class="" src="../images/portfolio/redesocial/2.png" alt="Imagem">
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="../pdf/redesocial.pdf" target="_blank">
+                    <i class="fa-solid fa-file-pdf"></i>
+                    <span id="article-document"></span>
+                </a>
+                <a href="https://github.com/luan004/redesocial" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span id="article-github"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <a class="portsource" target="_blank" href="https://github.com/luan004/luan004.tech">
+                <i class="fab fa-github"></i>
+                <span id="footer-button"></span>
+            </a>
+            <a class="totop" href="#face">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+        <span id="footer-text"></span>
+    </footer>
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/lang.js"></script>
+</html>
