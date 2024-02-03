@@ -20,7 +20,7 @@ body {
     /* background-color: #1b1b1b; */
     background: rgb(17,16,32);
     background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%);
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     display: flex;
 }
