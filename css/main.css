@@ -67,16 +67,35 @@ body {
     gap: 10px;
 }
 
-.socials a {
-    width: 32px;
+.social {
+    background-color: transparent;
+    padding: 5px;
+    display: flex;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.social-content {
+    transition: 0.3s;
+    width: 0;
+    overflow: hidden;
+}
+
+.social-content {
+    font-size: 14px;
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
-.socials a:hover {
-    filter: brightness(0.7);
-
+.socials a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .arrow {
@@ -264,5 +283,15 @@ section {
 
     .card div a {
         padding: 10px 20px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .social:hover {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    .social:hover .social-content {
+        width: 150px;
     }
 }
