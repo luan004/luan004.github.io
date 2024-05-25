@@ -9,7 +9,7 @@
     },
     "aboutme":{
         "title":"Sobre Mim",
-        "text":"<p>Sou estudante de Engenharia de Software no Instituto Federal do Paraná (IFPR) e tenho um diploma técnico em TI na mesma instituição. Atualmente, trabalho como desenvolvedor web freelancer e estou em busca de uma oportunidade como desenvolvedor júnior. Sou autodidata e estou sempre em busca de novos conhecimentos e desafios.</p><p>Estudo programação desde 2020 e tenho experiência com Java, JavaScript, PHP, MySQL, Git e Linux. Atualmente, estou me dedicando ao aprendizado de React e Node, aprimorando meu conhecimento em Desenvolvimento Web.</p>"
+        "text":"<p>Sou estudante de Engenharia de Software no Instituto Federal do Paraná e tenho diploma técnico em informática na mesma instituição.</p><p>Estudo programação desde 2020 e tenho experiência prática com Java, Node, PHP, MySQL e React, atualmente venho me dedicando ao aprendizado de bibliotecas e frameworks de Node.js, como por exemplo, Express.js, Electron e Next.</p>"
     },
     "education":{
         "title":"Formação Acadêmica",
@@ -41,7 +41,7 @@
         "title":"Portfólio",
         "redesocial":{
             "title":"Rede Social - TCC",
-            "text":"Uma rede social desenvolvida com jQuery, Bootstrap, PHP e MySQL. O projeto permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.",
+            "text":"Uma rede social desenvolvida com PHP, Bootstrap, jQuery e MySQL. O projeto permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.",
             "button":"Ver Mais"
         },
         "store":{

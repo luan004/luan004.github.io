@@ -9,7 +9,7 @@
     },
     "aboutme": {
         "title": "About Me",
-        "text": "<p>I'm a Software Engineering student at Federal Institute of Paraná (IFPR) and i have a technical degree in IT in the same institution. I'm currently working as a freelancer web developer and i'm looking for a job as a junior developer. I'm a self-taught person and i'm always looking for new knowledge and challenges.</p><p>I've been studying programming since 2020 and i have experience with Java, JavaScript, PHP, MySQL, Git and Linux. I'm currently studying ReactJS and NodeJS. And improving my knowledge in Web Development.</p>"
+        "text": "<p>I am a Software Engineering student at the Federal Institute of Paraná and hold a technical diploma in Information Technology from the same institution.<p><p>I have been studying programming since 2020 and have practical experience with Java, Node.js, PHP, MySQL, and React. Currently, I am dedicating myself to learning Node.js libraries and frameworks such as Express.js, Electron, and Next.js.</p>"
     },
     "education": {
         "title": "Formal Education",
@@ -41,7 +41,7 @@
         "title":"Portfolio",
         "redesocial":{
             "title":"Social Network - Final Paper",
-            "text":"A social network project developed in PHP, MySQL, JavaScript, HTML and CSS. The project was developed for my final paper in IT Technician course.",
+            "text":"A social network project developed in PHP, Bootstrap, jQuery and MySQL. The project was developed for my final paper in IT Technician course.",
             "button":"See More"
         },
         "store":{
