@@ -14,6 +14,9 @@ body {
     font-family: 'Noto Sans', sans-serif;
     min-height: 100vh;
     min-width: 360px;
+    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,12 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 /* FACE SECTION */
 
 #face {
-    background: rgb(17,16,32);
     min-height: 100vh;
     box-sizing: border-box;
     display: flex;
     /* background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%); */
-    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
+    
     background-size: cover;
 }
 
@@ -133,13 +135,11 @@ section {
 
 #aboutme {
     background-color:  rgba(20, 30, 48, 0.8);
+    backdrop-filter: blur(5px);
     color: white;
     display: grid;
-    background: rgb(17,16,32);
-    background: linear-gradient(115deg, rgb(9, 9, 17) 16%, rgb(21, 34, 37) 88%);
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-
     border-top: solid 1px rgba(255, 255, 255, 0.1);
     border-bottom: solid 1px rgba(255, 255, 255, 0.1);
 }
@@ -208,8 +208,6 @@ section {
 /* PORTFOLIO */
 
 #portfolio {
-    background: rgb(17,16,32);
-    background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%);
     color: white;
 }
 

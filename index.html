@@ -15,32 +15,6 @@
     <script src="js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <!-- NAVBAR -->
-    <header>
-        <nav class="transparent">
-            <span class="logo">{dev <b>luan004</b>}</span>
-            <ul>
-                <a href="#aboutme" id="nav-aboutme"></a>
-                <a href="#portfolio" id="nav-portfolio"></a>
-                <div class="dropdown">
-                    <button class="dropdown-button">
-                        <span id="nav-language"></span>
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="dropdown-menu">
-                        <button onclick="setLang('pt-br')">
-                            <img src="images/br.png" alt="Brazil Flag">
-                            PORTUGUÊS
-                        </button>
-                        <button onclick="setLang('en-us')">
-                            <img src="images/us.png" alt="United States Flag">
-                            ENGLISH
-                        </button>
-                    </div>
-                </div>
-            </ul>
-        </nav>
-    </header>
 
     <!-- FACE SECTION -->
     <section id="face">
@@ -195,6 +169,33 @@
         </div>
         <span id="footer-text"></span>
     </footer>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="transparent">
+            <span class="logo">{dev <b>luan004</b>}</span>
+            <ul>
+                <a href="#aboutme" id="nav-aboutme"></a>
+                <a href="#portfolio" id="nav-portfolio"></a>
+                <div class="dropdown">
+                    <button class="dropdown-button">
+                        <span id="nav-language"></span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="dropdown-menu">
+                        <button onclick="setLang('pt-br')">
+                            <img src="images/br.png" alt="Brazil Flag">
+                            PORTUGUÊS
+                        </button>
+                        <button onclick="setLang('en-us')">
+                            <img src="images/us.png" alt="United States Flag">
+                            ENGLISH
+                        </button>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
 </body>
 <script src="js/script.js"></script>
 <script src="js/lang.js"></script>

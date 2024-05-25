@@ -1,14 +1,14 @@
 /* FOOTER */
 
 footer {
-    background-color:  rgba(20, 30, 48, 0.8);
     color: white;
     text-align: center;
     display: flex;
     flex-direction: column;
 
-    background: rgb(17,16,32);
-    background: linear-gradient(115deg, rgb(9, 9, 17) 16%, rgb(21, 34, 37) 88%);
+    border-top: solid 1px rgba(255, 255, 255, 0.1);
+    background-color:  rgba(20, 30, 48, 0.8);
+    backdrop-filter: blur(5px);
 }
 
 footer div {
