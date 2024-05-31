@@ -317,9 +317,9 @@ section {
         flex-direction: column;
     }
 
-    .card div a {
+/*     .card div a {
         padding: 10px 20px;
-    }
+    } */
 }
 
 @media screen and (min-width: 720px) {
