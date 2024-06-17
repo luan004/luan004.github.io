@@ -20,6 +20,9 @@ function loadLang(lang) {
         case 'store':
             storeLang(lang);
             break;
+        case 'caminhocurto':
+            ccLang(lang);
+            break;
     }
 }
 
@@ -86,6 +89,10 @@ function indexLang(lang) {
         $('#store-text').html(json.portfolio.store.text);
         $('#store-button').text(json.portfolio.store.button);
 
+        $('#cc-title').text(json.portfolio.cc.title);
+        $('#cc-text').html(json.portfolio.cc.text);
+        $('#cc-button').text(json.portfolio.cc.button);
+
         /* FOOTER */
         $('#footer-button').text(json.footer.button);
         $('#footer-text').html(json.footer.text);
@@ -128,6 +135,27 @@ function storeLang(lang) {
         $('#article-title').text(json.store.title);
         $('#article-text').html(json.store.text);
         $('#article-github').text(json.store.buttons.github);
+
+        /* FOOTER */
+        $('#footer-button').text(json.footer.button);
+        $('#footer-text').html(json.footer.text);
+    });
+}
+
+/* 
+    /PORTFOLIO/CC
+*/
+function ccLang(lang) {
+    $.getJSON('../js/language/' + lang + '.json', function (json) {
+        /* NAV */
+        $('#nav-aboutme').text(json.nav.about);
+        $('#nav-portfolio').text(json.nav.portfolio);
+        $('#nav-language').text(json.nav.language);
+
+        /* ARTICLE */
+        $('#article-title').text(json.cc.title);
+        $('#article-text').html(json.cc.text);
+        $('#article-github').text(json.cc.buttons.github);
 
         /* FOOTER */
         $('#footer-button').text(json.footer.button);

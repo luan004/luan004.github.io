@@ -313,9 +313,6 @@ section {
         padding: 20px;
     }
 
-    .card div {
-        flex-direction: column;
-    }
 
 /*     .card div a {
         padding: 10px 20px;

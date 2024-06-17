@@ -48,6 +48,11 @@
             "title":"Sistema de Gerenciamento de Lojas",
             "text":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js.",
             "button":"Ver Mais"
+        },
+        "cc":{
+            "title":"CaminhoCurto - Encurtador de Links",
+            "text":"Um simples encurtador de link, que transforma links grandes e confusos em um pequeno link, que pode ser facilmente compartilhado. Feito utilizando React, Express.js e MySQL, para estudar as tecnologias envolvidas.",
+            "button":"Ver Mais"
         }
     },
     "footer":{
@@ -67,6 +72,14 @@
         "title":"Sistema de Gerenciamento de Lojas",
         "createdAt":"Publicado em 26 de Janeiro de 2024",
         "text":"<p>Este é um sistema para gerenciamento de uma loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando o framework <span class=\"fin\">React</span> para o frontend, <span class=\"fin\">Express.js</span> para o backend, <span class=\"fin\">MySQL</span> para o banco de dados e <span class=\"fin\">Node.js</span> para o servidor.</p><p>Este projeto foi desenvolvido apenas para fins de estudo das tecnologias utilizadas. É simples e não possui todas as funcionalidades necessárias para um sistema real.</p>",
+        "buttons": {
+            "github":"Código Fonte"
+        }
+    },
+    "cc": {
+        "title":"CaminhoCurto - Encurtador de Links",
+        "createdAt":"Publicado em 16 de Junho de 2024",
+        "text":"<p>Um simples encurtador de links feito com <span class=\"fin\">React</span>, <span class=\"fin\">Express.js</span> e <span class=\"fin\">MySQL</span>, feito a fim de estudar as tecnologias envolvidas.</p>",
         "buttons": {
             "github":"Código Fonte"
         }
