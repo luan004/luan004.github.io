@@ -10,14 +10,17 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Note Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     min-height: 100vh;
     min-width: 200px;
-    background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%);
+    background-color: rgb(11 17 34);
+    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
+    background-size: cover;
 }
 
 section {
     padding: 80px 250px 20px 250px;
+    min-height: calc(100vh - 209px);
 }
 
 #article {

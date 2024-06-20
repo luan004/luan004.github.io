@@ -13,10 +13,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
     min-height: 100vh;
     min-width: 360px;
-    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(17,16,32,1);
+    background-color: rgb(11 17 34);
+    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 60px;
-    margin: 10px; 
+    margin: 10px;
 }
 
 #face .content h2 {
