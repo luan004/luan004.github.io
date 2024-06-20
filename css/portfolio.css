@@ -108,6 +108,15 @@ section {
     font-weight: bold;
 }
 
+@media screen and (min-width: 2400px){
+    section {
+        width: 1700px;
+        margin: auto;
+        padding: 0;
+        margin: 80px auto 20px auto;
+    }
+}
+
 @media screen and (max-width: 1700px){
     section {
         padding: 80px 100px 20px 100px;

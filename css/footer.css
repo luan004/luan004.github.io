@@ -62,6 +62,15 @@ footer p i {
     color: rgb(238, 84, 84);
 }
 
+@media screen and (min-width: 2400px){
+    footer div {
+        width: 1700px;
+        margin: auto;
+        padding: 20px 0;
+    }
+}
+
+
 @media screen and (max-width: 1700px) {
     footer div {
         padding: 20px 100px;
