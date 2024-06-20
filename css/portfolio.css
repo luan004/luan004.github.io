@@ -16,7 +16,7 @@ body {
 }
 
 section {
-    padding: 80px 100px 20px 100px;
+    padding: 80px 250px 20px 250px;
 }
 
 #article {
@@ -106,6 +106,12 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1700px){
+    section {
+        padding: 80px 100px 20px 100px;
+    }
 }
 
 @media screen and (max-width: 720px) {

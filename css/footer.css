@@ -16,7 +16,7 @@ footer div {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 250px;
     box-sizing: border-box;
 }
 
@@ -60,6 +60,12 @@ footer p {
 footer p i {
     margin: 0 2px 0 2px;
     color: rgb(238, 84, 84);
+}
+
+@media screen and (max-width: 1700px) {
+    footer div {
+        padding: 20px 100px;
+    }    
 }
 
 @media screen and (max-width: 720px) {
