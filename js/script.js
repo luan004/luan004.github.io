@@ -6,10 +6,10 @@ if (page.includes('.html')) {
 
 $(window).scroll(function() {
     if ($(this).scrollTop() > 50) {
-        $('nav').removeClass('transparent');
+        $('.header-content').removeClass('transparent');
         page == '' ? $('.arrow').addClass('transparent') : false;
     } else {
-        $('nav').addClass('transparent');
+        $('.header-content').addClass('transparent');
         page == '' ? $('.arrow').removeClass('transparent') : false;
     }
 });

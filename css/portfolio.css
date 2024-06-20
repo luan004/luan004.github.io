@@ -1,7 +1,8 @@
 /* ROBOTO FONTFACE */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -9,7 +10,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Note Sans', sans-serif;
     min-height: 100vh;
     min-width: 200px;
     background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%);
@@ -27,13 +28,17 @@ section {
     color: white;
 }
 
+h1, h2 {
+    font-family: 'Lexend', sans-serif;
+}
+
 #article h1 {
-    font-size: 30px;
+    font-size: 22px;
     margin: 0;
 }
 
 #article h2 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 
@@ -45,7 +50,7 @@ section {
 
 
 #article p {
-    text-align: justify; 
+    text-align: justify;
 }
 
 /* IMAGES */
