@@ -28,8 +28,6 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 100vh;
     box-sizing: border-box;
     display: flex;
-    /* background: linear-gradient(115deg, rgba(17,16,32,1) 16%, rgba(37,59,66,1) 88%); */
-    
     background-size: cover;
 }
 
