@@ -53,6 +53,11 @@
             "title":"CaminhoCurto - Link Shortener",
             "text":"A simple link shortener, that transforms long and confusing links into a short link, that can be easily shared. Made using React, Express.js and MySQL, to study the technologies involved.",
             "button":"See More"
+        },
+        "sicape": {
+            "title": "Sicape Landing Page",
+            "text": "A landing page for the system we are developing for the Software Engineering course integrative project",
+            "button": "See more"
         }
     },
     "footer":{
