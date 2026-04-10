@@ -93,6 +93,10 @@ function indexLang(lang) {
         $('#cc-text').html(json.portfolio.cc.text);
         $('#cc-button').text(json.portfolio.cc.button);
 
+        $('#sicape-title').text(json.portfolio.cc.title);
+        $('#sicape-text').html(json.portfolio.cc.text);
+        $('#sicape-button').text(json.portfolio.cc.button);
+
         /* FOOTER */
         $('#footer-button').text(json.footer.button);
         $('#footer-text').html(json.footer.text);
