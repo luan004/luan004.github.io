@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Luan Gabriel | Store Management System</title>
+    <link rel="icon" href="../images/favicon.ico">
+
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content transparent">
+            <nav>
+                <span class="logo">
+                    <a href="..">
+                        {dev <b>luan004</b>}
+                    </a>
+                </span>
+                <ul>
+                    <a href="/index.html#aboutme" id="lang-nav-about"></a>
+                    <a href="/index.html#portfolio" id="lang-nav-portfolio"></a>
+                    <div class="dropdown">
+                        <button class="dropdown-button">
+                            <span id="lang-nav-language"></span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button onclick="setLang('pt-br')">
+                                <img src="images/br.png" alt="Brazil Flag">
+                                PORTUGUÊS
+                            </button>
+                            <button onclick="setLang('en-us')">
+                                <img src="images/us.png" alt="United States Flag">
+                                ENGLISH
+                            </button>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="article">
+            <h1 id="lang-portfolio-sicape-title"></h1>
+            <small id="lang-portfolio-sicape-createdAt"></small>
+            <span>
+                <p id="lang-portfolio-sicape-summary"></p>
+            </span>
+            <div class="images">
+                <div class="image">
+                    <img class="" src="../images/portfolio/sicape/sicape.png" alt="Imagem">
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="https://github.com/luan004/SistemaLojaReact" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span id="lang-generic-sourcecode"></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <a class="portsource" target="_blank" href="https://github.com/luan004/luan004.github.io">
+                <i class="fab fa-github"></i>
+                <span id="lang-footer-button"></span>
+            </a>
+            <a class="totop" href="#face">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+        <span>
+            <p id="lang-footer-text"></p>
+        </span>
+    </footer>
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/lang.js"></script>
+</html>
