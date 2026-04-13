@@ -1,7 +1,7 @@
 {
     "generic": {
         "seemore": "Ver mais",
-        "today": "Hoje",
+        "untilnow": "até o momento",
         "sourcecode": "Código fonte"
     },
     "nav":{
@@ -10,7 +10,7 @@
         "language":"IDIOMA"
     },
     "face":{
-        "subtitle":"Estudante de Engenharia de Software"
+        "subtitle":"Desenvolvedor"
     },
     "aboutme":{
         "title":"Sobre Mim",
@@ -32,10 +32,12 @@
     "jobs": {
         "title": "Experiência Profissional",
         "paghiper": {
-            "title": "Desenvolvedor WEB"
+            "title": "Desenvolvedor WEB",
+            "date": "Desde 2024"
         },
         "tecnospeed": {
-            "title": "Consultor Técnico"
+            "title": "Consultor Técnico",
+            "date": "Abr 2024 - Nov 2024"
         }
     },
     "portfolio":{
@@ -48,11 +50,15 @@
         },
         "store":{
             "title":"Sistema de Gerenciamento de Lojas",
-            "summary":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js."
+            "summary":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js.",
+            "createdAt":"Publicado em 26 de Janeiro de 2024",
+            "text":"<p>Este é um sistema para gerenciamento de uma loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando o framework <span class=\"fin\">React</span> para o frontend, <span class=\"fin\">Express.js</span> para o backend, <span class=\"fin\">MySQL</span> para o banco de dados e <span class=\"fin\">Node.js</span> para o servidor.</p><p>Este projeto foi desenvolvido apenas para fins de estudo das tecnologias utilizadas. É simples e não possui todas as funcionalidades necessárias para um sistema real.</p>"
         },
         "cc":{
             "title":"CaminhoCurto - Encurtador de Links",
-            "summary":"Um simples encurtador de link, que transforma links grandes e confusos em um pequeno link, que pode ser facilmente compartilhado. Feito utilizando React, Express.js e MySQL, para estudar as tecnologias envolvidas."
+            "summary":"Um simples encurtador de link, que transforma links grandes e confusos em um pequeno link, que pode ser facilmente compartilhado. Feito utilizando React, Express.js e MySQL, para estudar as tecnologias envolvidas.",
+            "createdAt":"Publicado em 16 de Junho de 2024",
+            "text":"<p>Um simples encurtador de links feito com <span class=\"fin\">React</span>, <span class=\"fin\">Express.js</span> e <span class=\"fin\">MySQL</span>, feito a fim de estudar as tecnologias envolvidas.</p>"
         },
         "sicape": {
             "title": "Landing page Sicape",
@@ -62,30 +68,5 @@
     "footer":{
         "button":"Código Fonte do Portfólio",
         "text":"Feito por Luan Gabriel &copy; 2026"
-    },
-    "redesocial":{
-        "title":"Rede Social - TCC",
-        "createdAt":"Publicado em 26 de Janeiro de 2024",
-        "text":"<p>Este projeto foi desenvolvido para o meu trabalho de conclusão de curso no curso de Técnico em Informática. Trata-se de uma rede social que permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.</p><p>O front-end foi desenvolvido utilizando <span class=\"fin\">jQuery</span> e <span class=\"fin\">Bootstrap</span>, o back-end foi desenvolvido com <span class=\"fin\">PHP</span> e <span class=\"fin\">MySQL</span> para o banco de dados, e a comunicação entre o front-end e o back-end foi realizada através de uma API desenvolvida com PHP.</p><p>Com este projeto, pude aprender bastante sobre as tecnologias utilizadas e desenvolver um sistema completo, com front-end, back-end e banco de dados, além de compreender o funcionamento das redes sociais.</p><p>Professor: Dr. Fabiano Utiyama</p>",
-        "buttons": {
-            "document":"Documento",
-            "github":"Código Fonte"
-        }
-    },
-    "store": {
-        "title":"Sistema de Gerenciamento de Lojas",
-        "createdAt":"Publicado em 26 de Janeiro de 2024",
-        "text":"<p>Este é um sistema para gerenciamento de uma loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando o framework <span class=\"fin\">React</span> para o frontend, <span class=\"fin\">Express.js</span> para o backend, <span class=\"fin\">MySQL</span> para o banco de dados e <span class=\"fin\">Node.js</span> para o servidor.</p><p>Este projeto foi desenvolvido apenas para fins de estudo das tecnologias utilizadas. É simples e não possui todas as funcionalidades necessárias para um sistema real.</p>",
-        "buttons": {
-            "github":"Código Fonte"
-        }
-    },
-    "cc": {
-        "title":"CaminhoCurto - Encurtador de Links",
-        "createdAt":"Publicado em 16 de Junho de 2024",
-        "text":"<p>Um simples encurtador de links feito com <span class=\"fin\">React</span>, <span class=\"fin\">Express.js</span> e <span class=\"fin\">MySQL</span>, feito a fim de estudar as tecnologias envolvidas.</p>",
-        "buttons": {
-            "github":"Código Fonte"
-        }
     }
 }
