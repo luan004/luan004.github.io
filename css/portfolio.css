@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     min-width: 200px;
     background-color: rgb(11 17 34);
-    background-image: url('../images/hero-dark@90.dba36cdf.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ section {
     min-height: calc(100vh - 209px);
 }
 
-#article {
+.article {
     background-color:  rgba(47, 57, 77, 0.8);
     border: solid 1px rgba(255, 255, 255, 0.1);
     border-radius: 10px;
@@ -35,24 +35,24 @@ h1, h2 {
     font-family: 'Lexend', sans-serif;
 }
 
-#article h1 {
+.article h1 {
     font-size: 22px;
     margin: 0;
 }
 
-#article h2 {
+.article h2 {
     font-size: 18px;
     margin: 0;
 }
 
-#article small {
+.article small {
     font-size: 12px;
     color: rgba(255, 255, 255, 0.5);
     font-family: 'Roboto Mono', monospace;
 }
 
 
-#article p {
+.article p {
     text-align: justify;
 }
 
@@ -70,11 +70,11 @@ h1, h2 {
     justify-content: center;
 }
 
-#article .images .image img {
+.article .images .image img {
     width: 100%;
 }
 
-#article .image img {
+.article .image img {
     width: 75%;
 }
 
@@ -136,11 +136,11 @@ h1, h2 {
         padding: 80px 20px 20px 20px;
     }
 
-    #article {
+    .article {
         padding: 20px;
     }
 
-    #article .image img {
+    .article .image img {
         width: 100%;
     }
 

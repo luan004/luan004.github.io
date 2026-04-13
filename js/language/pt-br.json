@@ -1,4 +1,9 @@
 {
+    "generic": {
+        "seemore": "Ver mais",
+        "today": "Hoje",
+        "sourcecode": "Código fonte"
+    },
     "nav":{
         "about":"SOBRE MIM",
         "portfolio":"PORTFÓLIO",
@@ -15,54 +20,48 @@
         "title":"Formação Acadêmica",
         "bs":{
             "title":"Bacharelado em Engenharia de Software",
-            "text":"<p>Instituto Federal do Paraná - IFPR</p><p>2024 - 2027 | Em Andamento</p>"
+            "institution": "Instituto Federal do Paraná",
+            "date":"2024 - 2027 | Em Andamento"
         },
         "it":{
             "title":"Técnico em Informática",
-            "text":"<p>Instituto Federal do Paraná - IFPR</p><p>2020 - 2023 | <span class=\"fin\"><b>Concluído</b></span></p>"
+            "institution": "Instituto Federal do Paraná",
+            "date":"2020 - 2023 | Concluído"
         }
     },
-    "courses":{
-        "title":"Cursos e Certificações",
-        "cs50":{
-            "title":"CS50x - Introduction to Computer Science",
-            "text":"<p>HarvardX</p><p>2024 | Em Andamento</p>"
+    "jobs": {
+        "title": "Experiência Profissional",
+        "paghiper": {
+            "title": "Desenvolvedor WEB"
         },
-        "network":{
-            "title":"Networking Essentials",
-            "text":"<p>Cisco Networking Academy</p><p>2023 | <span class=\"fin\"><b>Concluído</b></span></p>"
-        },
-        "linux":{
-            "title":"NDG Linux Unhatched",
-            "text":"<p>Cisco Networking Academy</p><p>2022 | <span class=\"fin\"><b>Concluído</b></span></p>"
+        "tecnospeed": {
+            "title": "Consultor Técnico"
         }
     },
     "portfolio":{
         "title":"Portfólio",
         "redesocial":{
             "title":"Rede Social - TCC",
-            "text":"Uma rede social desenvolvida com PHP, Bootstrap, jQuery e MySQL. O projeto permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.",
-            "button":"Ver Mais"
+            "summary":"Uma rede social desenvolvida com PHP, Bootstrap, jQuery e MySQL. O projeto permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.",
+            "createdAt":"Publicado em 26 de Janeiro de 2024",
+            "text":"<p>Este projeto foi desenvolvido para o meu trabalho de conclusão de curso no curso de Técnico em Informática. Trata-se de uma rede social que permite criar postagens, comentar, curtir, seguir usuários, personalizar o perfil, e muito mais.</p><p>O front-end foi desenvolvido utilizando <span class=\"fin\">jQuery</span> e <span class=\"fin\">Bootstrap</span>, o back-end foi desenvolvido com <span class=\"fin\">PHP</span> e <span class=\"fin\">MySQL</span> para o banco de dados, e a comunicação entre o front-end e o back-end foi realizada através de uma API desenvolvida com PHP.</p><p>Com este projeto, pude aprender bastante sobre as tecnologias utilizadas e desenvolver um sistema completo, com front-end, back-end e banco de dados, além de compreender o funcionamento das redes sociais.</p><p>Professor: Dr. Fabiano Utiyama</p>"
         },
         "store":{
             "title":"Sistema de Gerenciamento de Lojas",
-            "text":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js.",
-            "button":"Ver Mais"
+            "summary":"Um sistema para gerenciamento de loja, com a capacidade de administrar produtos, vendas e clientes, além de gerar relatórios. Foi desenvolvido utilizando React, Express.js, MySQL e Node.js."
         },
         "cc":{
             "title":"CaminhoCurto - Encurtador de Links",
-            "text":"Um simples encurtador de link, que transforma links grandes e confusos em um pequeno link, que pode ser facilmente compartilhado. Feito utilizando React, Express.js e MySQL, para estudar as tecnologias envolvidas.",
-            "button":"Ver Mais"
+            "summary":"Um simples encurtador de link, que transforma links grandes e confusos em um pequeno link, que pode ser facilmente compartilhado. Feito utilizando React, Express.js e MySQL, para estudar as tecnologias envolvidas."
         },
         "sicape": {
             "title": "Landing page Sicape",
-            "text": "Uma landing page para o sistema que estamos desenvolvendo para o projeto integrador do curso de Engenharia de Software",
-            "button": "Ver mais"
+            "summary": "Uma landing page para o sistema que estamos desenvolvendo para o projeto integrador do curso de Engenharia de Software"
         }
     },
     "footer":{
         "button":"Código Fonte do Portfólio",
-        "text":"<p>Feito por Luan Gabriel &copy; 2026</p>"
+        "text":"Feito por Luan Gabriel &copy; 2026"
     },
     "redesocial":{
         "title":"Rede Social - TCC",

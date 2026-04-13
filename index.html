@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,18 +15,46 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <script src="js/jquery-3.7.1.min.js"></script>
 </head>
+
 <body>
 
-    <!-- FACE SECTION -->
+    <header>
+        <div class="header-content transparent">
+            <nav>
+                <span class="logo">{dev <b>luan004</b>}</span>
+                <ul>
+                    <a href="#aboutme" id="lang-nav-about"></a>
+                    <a href="#portfolio" id="lang-nav-portfolio"></a>
+                    <div class="dropdown">
+                        <button class="dropdown-button">
+                            <span id="lang-nav-language"></span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <button onclick="setLang('pt-br')">
+                                <img src="images/br.png" alt="Brazil Flag">
+                                PORTUGUÊS
+                            </button>
+                            <button onclick="setLang('en-us')">
+                                <img src="images/us.png" alt="United States Flag">
+                                ENGLISH
+                            </button>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <section id="face">
         <div class="content">
             <div class="avatar">
-                <img src="images/avatarpic.jpg" alt="Luan">
+                <img src="images/avatar.jpeg" alt="Luan">
             </div>
             <h1>Luan Gabriel</h1>
-            <h2 id="face-subtitle"></h2>
+            <h2 id="lang-face-subtitle"></h2>
             <div class="socials">
-                
+
                 <div class="social">
                     <a class="social-content" href="https://github.com/luan004" target="_blank">
                         /luan004
@@ -49,59 +78,70 @@
         </a>
     </section>
 
-    <!-- ABOUT ME -->
     <section id="aboutme">
         <div class="aboutme">
-            <h1 id="aboutme-title"></h1>
-            <span id="aboutme-text"></span>
+            <h1 id="lang-aboutme-title"></h1>
+            <span id="lang-aboutme-text"></span>
         </div>
         <div class="education-content">
-            <h1 id="education-title"></h1>
+            <h1 id="lang-education-title"></h1>
             <div class="courses">
                 <div class="course">
                     <img src="images/logos/ifpr.png" alt="IFPR Logo">
                     <div>
-                        <h4 id="education-bs-title"></h4>
-                        <span id="education-bs-text"></span>
+                        <h4 id="lang-education-bs-title"></h4>
+                        <span>
+                            <p id="lang-education-bs-institution"></p>
+                            <p  id="lang-education-bs-date"></p>
+                        </span>
                     </div>
                 </div>
                 <div class="course">
                     <img src="images/logos/ifpr.png" alt="IFPR Logo">
                     <div>
-                        <h4 id="education-it-title"></h4>
-                        <span id="education-it-text"></span>
+                        <h4 id="lang-education-it-title"></h4>
+                        <span>
+                            <p id="lang-education-it-institution"></p>
+                            <p  id="lang-education-it-date"></p>
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
         <div class="courses-content">
-            <h1 id="courses-title"></h1>
+            <h1 id="lang-jobs-title"></h1>
             <div class="courses">
                 <div class="course">
-                    <img src="images/logos/cisco.png" alt="IFPR Logo">
+                    <img src="images/logos/paghiper.jpg" alt="IFPR Logo">
                     <div>
-                        <h4 id="courses-network-title"></h4>
-                        <span id="courses-network-text"></span>
+                        <h4 id="lang-jobs-paghiper-title"></h4>
+                        <span>
+                            <p>PagHiper</p>
+                            <p>2024 - <span id="lang-generic-today"></span></p>
+                        </span>
                     </div>
                 </div>
                 <div class="course">
-                    <img src="images/logos/cisco.png" alt="IFPR Logo">
+                    <img src="images/logos/tecnospeed.png" alt="IFPR Logo">
                     <div>
-                        <h4 id="courses-linux-title"></h4>
-                        <span id="courses-linux-text"></span>
+                        <h4 id="lang-jobs-tecnospeed-title"></h4>
+                        <span>
+                            <p>Tecnospeed</p>
+                            <p>2024
+                        </span></p>
+                        </span>
                     </div>
-                </div>            
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- PORTFOLIO -->
     <section id="portfolio">
-        <h1 id="portfolio-title"></h1>
+        <h1 id="lang-portfolio-title"></h1>
         <div class="grid">
             <div class="card">
                 <img src="images/portfolio/redesocial/thumb.gif" alt="Social Network Project">
-                <h4 id="redesocial-title"></h4>
+                <h4 id="lang-portfolio-redesocial-title"></h4>
                 <div class="tags">
                     <div class="tag">
                         PHP
@@ -116,17 +156,17 @@
                         jQuery
                     </div>
                 </div>
-                <p id="redesocial-text"></p>
+                <p id="lang-portfolio-redesocial-summary"></p>
                 <div>
                     <a href="portfolio/redesocial">
                         <i class="fas fa-external-link-alt"></i>
-                        <span id="redesocial-button"></span>
+                        <span id="lang-generic-seemore"></span>
                     </a>
                 </div>
             </div>
             <div class="card">
                 <img src="images/portfolio/store/thumb.png" alt="Social Network Project">
-                <h4 id="store-title"></h4>
+                <h4 id="lang-portfolio-store-title"></h4>
                 <div class="tags">
                     <div class="tag">
                         React
@@ -138,17 +178,17 @@
                         MySQL
                     </div>
                 </div>
-                <p id="store-text"></p>
+                <p id="lang-portfolio-store-summary"></p>
                 <div>
                     <a href="portfolio/store">
                         <i class="fas fa-external-link-alt"></i>
-                        <span id="store-button"></span>
+                        <span id="lang-generic-seemore"></span>
                     </a>
                 </div>
             </div>
             <div class="card">
                 <img src="images/portfolio/cc/thumb.gif" alt="Link Shortener Project">
-                <h4 id="cc-title"></h4>
+                <h4 id="lang-portfolio-cc-title"></h4>
                 <div class="tags">
                     <div class="tag">
                         React
@@ -160,17 +200,17 @@
                         MySQL
                     </div>
                 </div>
-                <p id="cc-text"></p>
+                <p id="lang-portfolio-cc-summary"></p>
                 <div>
                     <a href="portfolio/caminhocurto">
                         <i class="fas fa-external-link-alt"></i>
-                        <span id="cc-button"></span>
+                        <span id="lang-generic-seemore"></span>
                     </a>
                 </div>
             </div>
             <div class="card">
-                <img src="images/portfolio/sicape/thumb.gif" alt="Link Shortener Project">
-                <h4 id="sicape-title"></h4>
+                <img src="images/portfolio/sicape/sicape.png" alt="Link Shortener Project">
+                <h4 id="lang-portfolio-sicape-title"></h4>
                 <div class="tags">
                     <div class="tag">
                         Tailwind
@@ -179,60 +219,33 @@
                         HTML
                     </div>
                 </div>
-                <p id="sicape-text"></p>
+                <p id="lang-portfolio-sicape-summary"></p>
                 <div>
                     <a href="portfolio/sicape">
                         <i class="fas fa-external-link-alt"></i>
-                        <span id="sicape-button"></span>
+                        <span id="lang-generic-seemore"></span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
         <div>
             <a class="portsource" target="_blank" href="https://github.com/luan004/luan004.github.io">
                 <i class="fab fa-github"></i>
-                <span id="footer-button"></span>
+                <span id="lang-footer-button"></span>
             </a>
             <a class="totop" href="#face">
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </div>
-        <span id="footer-text"></span>
+        <p>
+            <span id="lang-footer-text"></span>
+        </p>
     </footer>
 
-    <!-- NAVBAR -->
-    <header>
-        <div class="header-content transparent">
-            <nav>
-                <span class="logo">{dev <b>luan004</b>}</span>
-                <ul>
-                    <a href="#aboutme" id="nav-aboutme"></a>
-                    <a href="#portfolio" id="nav-portfolio"></a>
-                    <div class="dropdown">
-                        <button class="dropdown-button">
-                            <span id="nav-language"></span>
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="dropdown-menu">
-                            <button onclick="setLang('pt-br')">
-                                <img src="images/br.png" alt="Brazil Flag">
-                                PORTUGUÊS
-                            </button>
-                            <button onclick="setLang('en-us')">
-                                <img src="images/us.png" alt="United States Flag">
-                                ENGLISH
-                            </button>
-                        </div>
-                    </div>
-                </ul>
-            </nav>
-        </div>
-    </header>
 </body>
 <script src="js/script.js"></script>
-<script src="js/lang.js"></script>
+
 </html>

@@ -15,7 +15,6 @@
     <script src="../js/jquery-3.7.1.min.js"></script>
 </head>
 <body>
-    <!-- NAVBAR -->
     <header>
         <div class="header-content transparent">
             <nav>
@@ -25,20 +24,20 @@
                     </a>
                 </span>
                 <ul>
-                    <a href="/index.html#aboutme" id="nav-aboutme"></a>
-                    <a href="/index.html#portfolio" id="nav-portfolio"></a>
+                    <a href="/index.html#aboutme" id="lang-nav-aboutme"></a>
+                    <a href="/index.html#portfolio" id="lang-nav-portfolio"></a>
                     <div class="dropdown">
                         <button class="dropdown-button">
-                            <span id="nav-language"></span>
+                            <span id="lang-nav-language"></span>
                             <i class="fa-solid fa-chevron-down"></i>
                         </button>
                         <div class="dropdown-menu">
                             <button onclick="setLang('pt-br')">
-                                <img src="/images/br.png" alt="Brazil Flag">
+                                <img src="images/br.png" alt="Brazil Flag">
                                 PORTUGUÊS
                             </button>
                             <button onclick="setLang('en-us')">
-                                <img src="/images/us.png" alt="United States Flag">
+                                <img src="images/us.png" alt="United States Flag">
                                 ENGLISH
                             </button>
                         </div>
@@ -49,47 +48,47 @@
     </header>
 
     <section>
-        <div id="article">
-            <h1 id="article-title"></h1>
-            <small id="article-createdAt"></small>
-            <span id="article-text"></span>
+        <div class="article">
+            <h1 id="lang-portfolio-redesocial-title"></h1>
+            <small id="lang-portfolio-redesocial-createdAt"></small>
+            <span id="lang-portfolio-redesocial-text"></span>
             <div class="images">
                 <div class="image">
-                    <img class="" src="../images/portfolio/redesocial/thumb.gif" alt="Imagem">
+                    <img src="../images/portfolio/redesocial/thumb.gif" alt="Imagem">
                 </div>
                 <div class="image">
-                    <img class="" src="../images/portfolio/redesocial/4.png" alt="Imagem">
+                    <img src="../images/portfolio/redesocial/4.png" alt="Imagem">
                 </div>
                 <div class="image">
-                    <img class="" src="../images/portfolio/redesocial/3.png" alt="Imagem">
+                    <img src="../images/portfolio/redesocial/3.png" alt="Imagem">
                 </div>
                 <div class="image">
-                    <img class="" src="../images/portfolio/redesocial/2.png" alt="Imagem">
+                    <img src="../images/portfolio/redesocial/2.png" alt="Imagem">
                 </div>
             </div>
             <div class="buttons">
                 <a href="https://github.com/luan004/redesocial" target="_blank">
                     <i class="fab fa-github"></i>
-                    <span id="article-github"></span>
+                    <span id="lang-generic-sourcecode"></span>
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
         <div>
-            <a class="portsource" target="_blank" href="https://github.com/luan004/luan004.tech">
+            <a class="portsource" target="_blank" href="https://github.com/luan004/luan004.github.io">
                 <i class="fab fa-github"></i>
-                <span id="footer-button"></span>
+                <span id="lang-footer-button"></span>
             </a>
             <a class="totop" href="#face">
                 <i class="fa-solid fa-arrow-up"></i>
             </a>
         </div>
-        <span id="footer-text"></span>
+        <span>
+            <p id="lang-footer-text"></p>
+        </span>
     </footer>
 </body>
 <script src="../js/script.js"></script>
-<script src="../js/lang.js"></script>
 </html>
